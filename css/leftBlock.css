@@ -1,0 +1,99 @@
+#menu{
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 0.05em solid red;
+  border-radius: 1.5em;
+  padding: 3%;
+  margin: 0.5em;
+}
+#menu li{
+  cursor: pointer;
+  margin-bottom: 0.5em;
+}
+#menu li:hover{
+  color: red;
+  text-decoration: underline;
+}
+#leftBlock > *{
+  position: relative;
+}
+#leftBlock > p{
+  width: 100%;
+  text-align: center;
+  font-size: 250%;
+  margin-top: 5%;
+}
+#menu > p{
+  width: 100%;
+  font-size: 150%;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+.chapter{
+  margin-left: 10%;
+}
+
+#settings{
+  /* flex-grow: 1; */
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 0.05em solid red;
+  border-radius: 1.5em;
+  padding: 3%;
+  margin: 2%;
+  flex-shrink: 0;
+}
+.set{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.set > p{
+  position: relative;
+}
+#settings input{
+  margin: 0.5em;
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
+
+#aboutMe{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0.5em;
+}
+#previewAboutMe{
+  position: relative;
+  font-size: 140%;
+}
+#textAboutMe{
+  height: 0px;
+  overflow: hidden;
+  padding-top: 0em;
+}
+#buttonAboutMe{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  flex-shrink: 0;
+  border: 0.05em solid red;
+  border-radius: 1em;
+  cursor: pointer;
+}
+#buttonAboutMe:hover{
+  background-color: #ffaf52;
+}
+#buttonAboutMe img{
+  width: 60%;
+  height: 60%;
+  transform: rotate(90deg);
+}

@@ -1,0 +1,108 @@
+{
+  "sequence":{
+    "src":"img/Создание документа поступление товаров и услуг/",
+    "roundImages":10
+  },
+  "SPMofClicker":{
+    "img_0":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 5, "height": 9},
+        "position":{"left":13, "top":4},
+        "message":"Перейдите в <<Закупки>>"
+      }
+    },
+    "img_1":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 3},
+        "position":{"left":4, "top":41.5},
+        "message":"Перейдите в <<Поступления товаров>>"
+      }
+    },
+    "img_2":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 63, "height": 3},
+        "position":{"left":1, "top":22},
+        "message":"Тут вы можете отсортировать товары по поставщику, магазину и ответственному"
+      },
+      "point_1":{
+        "size":{"width": 5, "height": 3},
+        "position":{"left":1, "top":25},
+        "message":"Нажмите <<Создать>>"
+      }
+    },
+    "img_3":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 1.5, "height": 2.5},
+        "position":{"left":25.5, "top":27},
+        "message":"В строке <<Поставщик>> нажмите <<...>>"
+      }
+    },
+    "img_4":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 20, "height": 2},
+        "position":{"left":41, "top":37},
+        "message":"Выберите поставщика"
+      },
+      "point_1":{
+        "size":{"width": 6, "height": 3},
+        "position":{"left":20, "top":31},
+        "message":"Нажмите <<Выбрать>>"
+      }
+    },
+    "img_5":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 2, "height": 3},
+        "position":{"left":1.5, "top":41},
+        "message":"Нажмите <<Создать>>"
+      }
+    },
+    "img_6":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 1.5, "height": 3},
+        "position":{"left":55, "top":46},
+        "message":"Нажмите <<...>>"
+      }
+    },
+    "img_7":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 22, "height": 3},
+        "position":{"left":23, "top":39},
+        "message":"Выберите номенклатуру"
+      },
+      "point_1":{
+        "size":{"width": 6, "height": 3},
+        "position":{"left":21, "top":31},
+        "message":"Нажмите <<Выбрать>>"
+      }
+    },
+    "img_8":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 5, "height": 3},
+        "position":{"left":57, "top":46},
+        "message":"Укажите количество"
+      }
+    },
+    "img_9":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 5.5, "height": 3},
+        "position":{"left":78.5, "top":46},
+        "message":"Укажите цену"
+      },
+      "point_1":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Готово"
+      }
+    }
+  }
+}

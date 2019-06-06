@@ -1,0 +1,58 @@
+{
+  "sequence":{
+    "src":"img/Вход в 1с/",
+    "roundImages":5
+  },
+  "SPMofClicker":{
+    "img_0":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 5, "height": 11},
+        "position":{"left":33, "top":24},
+        "message":"Дважды нажмите на ярлык <<1С предприятие>>"
+      }
+    },
+    "img_1":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 20, "height": 4},
+        "position":{"left":35.3, "top":32},
+        "message":"Выберите нужную базу"
+      },
+      "point_1":{
+        "size":{"width": 9, "height": 3.3},
+        "position":{"left":56, "top":32},
+        "message":"Нажмите <<1С предприятие>>"
+      }
+    },
+    "img_2":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 8},
+        "position":{"left":84.5, "top":44},
+        "message":"Нажмите на стрелочку"
+      }
+    },
+    "img_3":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 52, "height": 10},
+        "position":{"left":41.5, "top":52},
+        "message":"Выберите нужного пользователя"
+      }
+    },
+    "img_4":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 47, "height": 8},
+        "position":{"left":41, "top":54},
+        "message":"Введите пароль, если нужно"
+      },
+      "point_1":{
+        "size":{"width": 14, "height": 8},
+        "position":{"left":41, "top":67},
+        "message":"Нажмите <<ок>>"
+      }
+    }
+  }
+}

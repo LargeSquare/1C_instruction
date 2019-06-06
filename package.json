@@ -1,0 +1,12 @@
+{
+  "name": "1c_instruction",
+  "version": "1.0.0",
+  "description": "In main.js",
+  "main": "app/index.html",
+  "author": "Данилюк Сергей",
+  "window": {
+    "icon":"icon.png",
+    "width": 1280,
+    "height": 720
+  }
+}

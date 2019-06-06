@@ -1,0 +1,45 @@
+{
+  "sequence":{
+    "src":"img/Отложение и возвращение чека/",
+    "roundImages":4
+  },
+  "SPMofClicker":{
+    "img_0":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 19, "height": 7},
+        "position":{"left":20.9, "top":90.5},
+        "message":"Отложить чек можно кнопкой в меню или сочетанием клавиш Alt+F5"
+      }
+    },
+    "img_1":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 19, "height": 7},
+        "position":{"left":40.5, "top":90.8},
+        "message":"После этого мы можем продолжить пробивать другие чеки. Чтобы вернутся к отложенному чеку, нажмите кнопку <<Продолж. чек>> или сочетание клавиш Ctrl+F5"
+      }
+    },
+    "img_2":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 40, "height": 3},
+        "position":{"left":25, "top":32},
+        "message":"Двойным кликом выберите нужный чек"
+      },
+      "point_1":{
+        "size":{"width": 40, "height": 3},
+        "position":{"left":33, "top":24},
+        "message":"Нажмите на кнопку с зеленой стрелкой"
+      }
+    },
+    "img_3":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Теперь этот чек можно пробить или аннулировать"
+      }
+    }
+  }
+}

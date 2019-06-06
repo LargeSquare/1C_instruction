@@ -1,0 +1,148 @@
+{
+  "sequence":{
+    "src":"img/Способы оплаты/",
+    "roundImages":16
+  },
+  "SPMofClicker":{
+    "img_0":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 19.1, "height": 7.5},
+        "position":{"left":1, "top":90},
+        "message":"Нажмите <<Штрихкод>>"
+      }
+    },
+    "img_1":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 20, "height": 43},
+        "position":{"left":40, "top":28},
+        "message":"Введите нужный штрихкод"
+      }
+    },
+    "img_2":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 10.5, "height": 7.1},
+        "position":{"left":45, "top":10.3},
+        "message":"Оплата наличными. Нажмите <<Наличные(F6)>>"
+      }
+    },
+    "img_3":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 44, "height": 41},
+        "position":{"left":28, "top":32},
+        "message":"Введите номинал купюры"
+      },
+      "point_1":{
+        "size":{"width": 4, "height": 16},
+        "position":{"left":67, "top":55},
+        "message":"Нажмите Enter"
+      }
+    },
+    "img_4":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Готово!"
+      }
+    },
+    "img_5":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 10.5, "height": 6.4},
+        "position":{"left":45, "top":11},
+        "message":"Оплата картой. Нажмите <<Плат.карта(F7)>>"
+      }
+    },
+    "img_6":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 3.9, "height": 12},
+        "position":{"left":54.7, "top":57},
+        "message":"Нажмите Enter"
+      }
+    },
+    "img_7":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 4.5},
+        "position":{"left":37.5, "top":64.5},
+        "message":"Нажмите <<Да>>"
+      }
+    },
+    "img_8":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 16},
+        "position":{"left":65.2, "top":61},
+        "message":"Нажмите Enter"
+      }
+    },
+    "img_9":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Готово!"
+      }
+    },
+
+
+    "img_10":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 11, "height": 7},
+        "position":{"left":67, "top":11},
+        "message":"Сложная оплата. Нажмите <<Сложная оплата(F8)>>"
+      }
+    },
+    "img_11":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 3.5, "height": 11},
+        "position":{"left":52, "top":33},
+        "message":"Сначала воспользуемся наличными. Нажмите <<Нал(F6)>>"
+      }
+    },
+    "img_12":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 40, "height": 45},
+        "position":{"left":30, "top":33},
+        "message":"Введите сумму наличных"
+      },
+      "point_1":{
+        "size":{"width": 4, "height": 11},
+        "position":{"left":56.3, "top":33},
+        "message":"Теперь воспользуемся пластиковой картой, нажимаем кнопку <<ПК(F7)>>"
+      }
+    },
+    "img_13":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 12},
+        "position":{"left":54.5, "top":57},
+        "message":"Нажмите Enter"
+      }
+    },
+    "img_14":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 4},
+        "position":{"left":37.5, "top":65},
+        "message":"Нажмите <<Да>>"
+      }
+    },
+    "img_15":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 15},
+        "position":{"left":65.2, "top":62},
+        "message":"Нажмите Enter"
+      }
+    }
+  }
+}

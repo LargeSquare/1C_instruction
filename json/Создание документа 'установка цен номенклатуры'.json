@@ -1,0 +1,80 @@
+{
+  "sequence":{
+    "src":"img/Создание документа установка цен номенклатуры/",
+    "roundImages":8
+
+  },
+
+  "SPMofClicker":{
+    "img_0":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 8},
+        "position":{"left":13, "top":4},
+        "message":"Переходим в раздел <<Закупки>>"
+      }
+    },
+	"img_1":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 2},
+        "position":{"left":4, "top":42},
+        "message":"Выбираем пункт <<Поступление товара>>"
+      }
+    },
+	"img_2":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 6, "height": 2},
+        "position":{"left":3, "top":35},
+        "message":"Выбираем поступление, на которое нужно установить цену, двойным кликам мышки"
+		}
+	},
+	"img_3":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 2, "height": 3},
+        "position":{"left":13, "top":20},
+        "message":"Нажмите на кнопку <<Создать на основании>>"
+      }
+	 },
+	"img_4":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 24, "height": 2},
+        "position":{"left":15, "top":36},
+        "message":"Выбираем <<Установка цен номенклатуры>>"
+		}
+	},
+	"img_5":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 83, "height": 7},
+        "position":{"left":15, "top":36},
+        "message":"В данном окне можно редактировать закупочные и розничные цены"
+      }
+	 },
+	"img_6":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 1, "height": 2},
+        "position":{"left":21.5, "top":26.5},
+        "message":"Нажмите на значок календаря"
+		},
+	  "point_1":{
+        "size":{"width": 8.3, "height": 18},
+        "position":{"left":15, "top":28.3},
+        "message":"Устанавливаем дату и время проведение цен. Мы можем установить с какого момента будет действовать новая цена."
+      }
+	 },
+	"img_7":{
+      "roundPoints":1,
+	   "point_0":{
+        "size":{"width": 8.4, "height": 2},
+        "position":{"left":1.23, "top":21},
+        "message":"Редактирование документа установка цен после сохранения крайне нежелательно.Нажимаем <<Провести и закрыть>>"
+
+			}
+		}
+	}
+}

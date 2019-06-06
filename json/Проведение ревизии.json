@@ -1,0 +1,285 @@
+{
+  "sequence":{
+    "src":"img/Проведение ревизии/",
+    "roundImages":29
+  },
+  "SPMofClicker":{
+    "img_0":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 7},
+        "position":{"left":19, "top":5},
+        "message":"Перейдите в <<Склад>>"
+      }
+    },
+    "img_1":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 2},
+        "position":{"left":4, "top":52},
+        "message":"Нажмите на <<Приказы на пересчет товаров>>"
+      }
+    },
+    "img_2":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 5, "height": 3},
+        "position":{"left":1, "top":25},
+        "message":"Нажмите на <<Создать>>"
+      }
+    },
+    "img_3":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 1.5, "height": 2},
+        "position":{"left":66.7, "top":27},
+        "message":"В строке <<Магазин>> нажмите на <<...>>"
+      }
+    },
+    "img_4":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 26, "height": 2},
+        "position":{"left":34, "top":37},
+        "message":"Выберите нужный магазин"
+      },
+      "point_1":{
+        "size":{"width": 5.5, "height": 3},
+        "position":{"left":33.8, "top":31},
+        "message":"Нажмите <<Выбрать>>"
+      }
+    },
+    "img_5":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 21},
+        "position":{"left":78, "top":27},
+        "message":"В строке <<Период инвентаризации с: >> нажмите на кнопку календаря и выберите дату начала периода инвентаризации"
+      }
+    },
+    "img_6":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 21},
+        "position":{"left":85, "top":27},
+        "message":"Затем нажмите на вторую кнопку календаря (находится правее) и выберите дату конца периода инвентаризации"
+      }
+    },
+    "img_7":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 1.3, "height": 2.5},
+        "position":{"left":84.8, "top":34},
+        "message":"В строке <<Отбор>> нажмите на <<...>>"
+      }
+    },
+    "img_8":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 31, "height": 3},
+        "position":{"left":34, "top":34},
+        "message":"Выберите нужные правила отбора"
+      },
+      "point_1":{
+        "size":{"width": 5, "height": 3},
+        "position":{"left":34, "top":31},
+        "message":"Нажмите <<Выбрать>>"
+      }
+    },
+    "img_9":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 4},
+        "position":{"left":1, "top":20},
+        "message":"Нажмите <<Провести и закрыть>>"
+      }
+    },
+    "img_10":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 30, "height": 3},
+        "position":{"left":1, "top":34.5},
+        "message":"Откройте только-что созданный приказ двойным кликом"
+      }
+    },
+    "img_11":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 2, "height": 4},
+        "position":{"left":13, "top":20},
+        "message":"Нажмите на кнопку <<Создать на основе>>"
+      },
+      "point_1":{
+        "size":{"width": 12, "height": 3},
+        "position":{"left":13, "top":23},
+        "message":"Выберите пункт <<Пересчет товаров>>"
+      }
+    },
+    "img_12":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 5, "height": 3},
+        "position":{"left":5, "top":24},
+        "message":"Перейдите во вкладку <<Товары>>"
+      }
+    },
+    "img_13":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 28, "height": 14},
+        "position":{"left":2, "top":34},
+        "message":"Выделите всю номенклатуру"
+      }
+    },
+    "img_14":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 6, "height": 3},
+        "position":{"left":14.5, "top":26.5},
+        "message":"Нажмите <<Заполнить цены>>"
+      },
+      "point_1":{
+        "size":{"width": 11, "height": 3},
+        "position":{"left":14.5, "top":29},
+        "message":"Выберите <<По розничным ценам>>"
+      }
+    },
+    "img_15":{
+      "roundPoints": 2,
+      "point_0":{
+        "size":{"width": 5, "height": 14},
+        "position":{"left":69, "top":34},
+        "message":"Заполните столб <<Факт>>. В этот столб вносится фактическое количество товара (сколько в данный момент находится товара на сладе)"
+      },
+      "point_1":{
+        "size":{"width": 4, "height": 3},
+        "position":{"left":1, "top":24},
+        "message":"Вернитесь на вкладку <<Главное>>"
+      }
+    },
+    "img_16":{
+      "roundPoints": 2,
+      "point_0":{
+        "size":{"width": 1, "height": 3},
+        "position":{"left":97, "top":35},
+        "message":"В строке <<Статус>> нажмите на <<...>>"
+      },
+      "point_1":{
+        "size":{"width": 20, "height": 2},
+        "position":{"left":57.7, "top":42},
+        "message":"Выберите <<Выполнено>>. После этого редактировать документ нельзя."
+      }
+    },
+    "img_17":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 4},
+        "position":{"left":1, "top":20},
+        "message":"Нажмите <<Провести и закрыть>>"
+      }
+    },
+    "img_18":{
+      "roundPoints": 2,
+      "point_0":{
+        "size":{"width": 2, "height": 4},
+        "position":{"left":13, "top":20},
+        "message":"Если на складе товара больше чем по учёту, нажимите на кнопку <<Создать на основе>>"
+      },
+      "point_1":{
+        "size":{"width": 12, "height": 3},
+        "position":{"left":13, "top":23},
+        "message":"Выберите <<Оприходование товаров>>"
+      }
+    },
+    "img_19":{
+      "roundPoints": 1,
+      "point_0":{
+        "size":{"width": 7, "height": 3},
+        "position":{"left":11, "top":37},
+        "message":"Нажмите <<Заполнить цены>>"
+      }
+    },
+    "img_20":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 3},
+        "position":{"left":11, "top":40},
+        "message":"Выберите <<По розничным ценам>>"
+      }
+    },
+    "img_21":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 4},
+        "position":{"left":1, "top":20},
+        "message":"Нажмите <<Провести и закрыть>>"
+      }
+    },
+    "img_22":{
+      "roundPoints": 2,
+      "point_0":{
+        "size":{"width": 2, "height": 3},
+        "position":{"left":13.1, "top":20.3},
+        "message":"Если на складе товара меньше чем по учёту, нажимите на кнопку <<Создать на основе>>"
+      },
+      "point_1":{
+        "size":{"width": 12, "height": 3},
+        "position":{"left":13, "top":31},
+        "message":"Выберите <<Списание товаров>>"
+      }
+    },
+    "img_23":{
+      "roundPoints": 1,
+      "point_0":{
+        "size":{"width": 6, "height": 3},
+        "position":{"left":22, "top":37},
+        "message":"Нажмите <<Заполнить цены>>"
+      }
+    },
+    "img_24":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 11, "height": 3},
+        "position":{"left":22, "top":40},
+        "message":"Выберите <<По розничным ценам>>"
+      }
+    },
+    "img_25":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 4},
+        "position":{"left":1, "top":20},
+        "message":"Нажмите <<Провести и закрыть>>"
+      }
+    },
+    "img_26":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 1.5, "height": 2.5},
+        "position":{"left":97.4, "top":24},
+        "message":"Теперь в приказе на инвентаризацию нужно изменить его статуc на выполненный, для этого нажмите на <<...>>"
+      },
+      "point_1":{
+        "size":{"width": 20.5, "height": 3},
+        "position":{"left":78, "top":28},
+        "message":"Выберите <<Пересчет завершен>>"
+      }
+    },
+    "img_27":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 4},
+        "position":{"left":1, "top":20},
+        "message":"Нажмите <<Провести и закрыть>>"
+      }
+    },
+    "img_28":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Готово!"
+      }
+    }
+  }
+}

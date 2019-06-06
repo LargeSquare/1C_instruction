@@ -1,0 +1,91 @@
+{
+  "sequence":{
+    "src":"img/Переоценка/",
+    "roundImages":8
+
+  },
+
+  "SPMofClicker":{
+    "img_0":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 5, "height": 9},
+        "position":{"left":6.7, "top":4},
+        "message":"Переходим в раздел <<Маркетинг>>"
+      }
+    },
+	"img_1":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 2},
+        "position":{"left":4, "top":38},
+        "message":"Выбираем пункт <<Цены номенклатуры>>"
+      }
+    },
+	"img_2":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 3},
+        "position":{"left":1.2, "top":20.1},
+        "message":"Нажимаем кнопку <<Создать>>"
+		}
+	},
+	"img_3":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 8.7, "height": 2.6},
+        "position":{"left":1, "top":20.6},
+        "message":"Выбираем вид цены, в данном случае розничная"
+      },
+	  "point_1":{
+        "size":{"width": 11.4, "height": 2.6},
+        "position":{"left":86.6, "top":83},
+        "message":"Нажимаем кнопку <<Перейти к установке цен>>"
+	  }
+	},
+
+
+	"img_4":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 2, "height": 2.2},
+        "position":{"left":2, "top":31},
+        "message":"Нажимаем кнопку <<Создать>>"
+		}
+	},
+	"img_5":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 11.7, "height": 3},
+        "position":{"left":2, "top":33.3},
+        "message":"Нажимаем <<Подобрать товар>>"
+      },
+	  "point_1":{
+        "size":{"width": 21.4, "height": 2.5},
+        "position":{"left":13.8, "top":34},
+        "message":"Нажимаем <<Открыть подбор>>"
+	  }
+	 },
+	"img_6":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 13, "height": 2},
+        "position":{"left":46.8, "top":49},
+        "message":"Выбираем нужную номенклатуру."
+      },
+	  "point_1":{
+        "size":{"width": 9.4, "height": 2.5},
+        "position":{"left":26, "top":27},
+        "message":"Нажимаем <<Перенести в документ>>"
+	  }
+	 },
+	"img_7":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 8, "height": 2},
+        "position":{"left":1.2, "top":20.7},
+        "message":"Устанавливаем новую цену и нажимаем <<Провести и закрыть>>"
+			}
+		}
+	}
+}

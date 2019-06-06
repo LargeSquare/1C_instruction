@@ -1,0 +1,195 @@
+{
+  "sequence":{
+    "src":"img/Заполнение справочника номенклатура/",
+    "roundImages":22
+  },
+
+  "SPMofClicker":{
+    "img_0":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 8},
+        "position":{"left":36.7, "top":5},
+        "message":"Перейдите в раздел <<НСИ>>"
+      }
+    },
+    "img_1":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 7, "height": 2.5},
+        "position":{"left":3.7, "top":48},
+        "message":"Выберите пункт <<номенклатура>>"
+      }
+    },
+    "img_2":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4.5, "height": 3},
+        "position":{"left": 1, "top":20.5},
+        "message":"Нажмите <<Создать>>"
+      }
+    },
+    "img_3":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 21, "height": 3},
+        "position":{"left":8.7, "top":23.5},
+        "message":"Заполните наименование"
+      }
+    },
+    "img_4":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 1.5, "height": 3},
+        "position":{"left":96.4, "top":29},
+        "message":"Нажмите <<...>>"
+      }
+    },
+    "img_5":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 33, "height": 2.5},
+        "position":{"left": 33, "top": 37},
+        "message":"Выберите нужный вид номенклатуры"
+      },
+      "point_1":{
+        "size":{"width": 5.7, "height": 3},
+        "position":{"left":32.7, "top":31},
+        "message":"Нажмите <<Выбрать>>"
+      }
+    },
+    "img_6":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 6.3, "height": 3.3},
+        "position":{"left":43.7, "top":48.5},
+        "message":"Нажмите <<Да>>"
+      }
+    },
+    "img_7":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 4},
+        "position":{"left": 1, "top": 20},
+        "message":"Нажмите <<Записать и закрыть>>"
+      }
+    },
+    "img_8":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 97, "height": 4},
+        "position":{"left":1, "top":36},
+        "message":"Номенклатура создана"
+      }
+    },
+    "img_9":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 2, "height": 4},
+        "position":{"left":5.5, "top":20},
+        "message":"Здесь же можем группировать номенклатуры. Нажмите <<Создать новую группу>>"
+      }
+    },
+    "img_10":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 21, "height": 3},
+        "position":{"left":47.5, "top":50},
+        "message":"Заполните наименование"
+      }
+    },
+    "img_11":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 8.5, "height": 3},
+        "position":{"left":42, "top":44},
+        "message":"Нажмите <<Записать и закрыть>>"
+      }
+    },
+    "img_12":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 95, "height": 9},
+        "position":{"left": 2, "top":28},
+        "message":"Выделите нужные номенклатуры"
+      }
+    },
+    "img_13":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 27, "height": 2.5},
+        "position":{"left":3, "top":26},
+        "message":"Перетащите в созданную группу"
+      }
+    },
+    "img_14":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 26, "height": 3},
+        "position":{"left":4, "top":28},
+        "message":"Также можно переместить номенклатуру в созданную группу следующим способом: дважды нажмите на нужную номенклатуру"
+      }
+    },
+    "img_15":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 6, "height": 4},
+        "position":{"left":91, "top":20},
+        "message":"Нажмите кнопку <<Все действия>>"
+      }
+    },
+    "img_16":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 16, "height": 3},
+        "position":{"left":83, "top":50},
+        "message":"Нажмите кнопку <<Разрешить редактирование реквизитов>>"
+      }
+    },
+    "img_17":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 8.6, "height": 3.6},
+        "position":{"left":41.5, "top":70},
+        "message":"Нажмите <<Проверить и разрешить>>"
+      }
+    },
+    "img_18":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 10.2, "height": 4},
+        "position":{"left":40, "top":49},
+        "message":"Нажмите <<Разрешить редактирование>>"
+      }
+    },
+    "img_19":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 1.2, "height": 2.5},
+        "position":{"left":96, "top":37},
+        "message":"Теперь мы можем указать группу. В строке <<Входит в группу>> нажмите <<...>>"
+      }
+    },
+    "img_20":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 5, "height": 4},
+        "position":{"left":37, "top":36},
+        "message":"выберите нужную группу"
+      },
+      "point_1":{
+        "size":{"width": 5.5, "height": 3},
+        "position":{"left":34, "top":31},
+        "message":"Нажмите <<Выбрать>>"
+      }
+    },
+    "img_21":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 9, "height": 4},
+        "position":{"left":1, "top":20},
+        "message":"Нажмите <<Записать и закрыть>>"
+      }
+    }
+  }
+}
