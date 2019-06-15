@@ -34,8 +34,13 @@
       }
     },
     "img_3":{
-      "roundPoints":1,
+      "roundPoints":2,
       "point_0":{
+        "size":{"width": 1.5, "height": 2.5},
+        "position":{"left":3.3, "top":41},
+        "message":"Товар можно заполнить автоматически, нажав на кнопку <<Найти по штрихкоду>> и отсканировав штрихкод на товаре"
+      },
+      "point_1":{
         "size":{"width": 1.5, "height": 2.5},
         "position":{"left":25.5, "top":27},
         "message":"В строке <<Поставщик>> нажмите <<...>>"
@@ -96,12 +101,12 @@
       "point_0":{
         "size":{"width": 5.5, "height": 3},
         "position":{"left":78.5, "top":46},
-        "message":"Укажите цену"
+        "message":"Укажите закупочную цену"
       },
       "point_1":{
-        "size":{"width": 100, "height": 100},
-        "position":{"left":0, "top":0},
-        "message":"Готово"
+        "size":{"width": 9, "height": 4},
+        "position":{"left":1, "top":20},
+        "message":"Нажмите <<Провести и закрыть>>"
       }
     }
   }

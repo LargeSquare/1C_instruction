@@ -76,8 +76,8 @@
     "img_8":{
       "roundPoints":2,
       "point_0":{
-        "size":{"width": 31, "height": 3},
-        "position":{"left":34, "top":34},
+        "size":{"width": 31, "height": 2},
+        "position":{"left":34, "top":39},
         "message":"Выберите нужные правила отбора"
       },
       "point_1":{
@@ -89,8 +89,8 @@
     "img_9":{
       "roundPoints":1,
       "point_0":{
-        "size":{"width": 9, "height": 4},
-        "position":{"left":1, "top":20},
+        "size":{"width": 1.5, "height": 3},
+        "position":{"left":11.5, "top":20.5},
         "message":"Нажмите <<Провести и закрыть>>"
       }
     },
@@ -111,7 +111,7 @@
       },
       "point_1":{
         "size":{"width": 12, "height": 3},
-        "position":{"left":13, "top":23},
+        "position":{"left":13, "top":28},
         "message":"Выберите пункт <<Пересчет товаров>>"
       }
     },
@@ -128,7 +128,7 @@
       "point_0":{
         "size":{"width": 28, "height": 14},
         "position":{"left":2, "top":34},
-        "message":"Выделите всю номенклатуру"
+        "message":"Выделите всю номенклатуру, нажав << Ctrl + a >>"
       }
     },
     "img_14":{

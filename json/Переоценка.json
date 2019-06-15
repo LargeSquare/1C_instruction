@@ -11,7 +11,7 @@
       "point_0":{
         "size":{"width": 5, "height": 9},
         "position":{"left":6.7, "top":4},
-        "message":"Переходим в раздел <<Маркетинг>>"
+        "message":"Перейдите в раздел <<Маркетинг>>"
       }
     },
 	"img_1":{
@@ -19,7 +19,7 @@
       "point_0":{
         "size":{"width": 9, "height": 2},
         "position":{"left":4, "top":38},
-        "message":"Выбираем пункт <<Цены номенклатуры>>"
+        "message":"Выберите пункт <<Цены номенклатуры>>"
       }
     },
 	"img_2":{
@@ -27,20 +27,20 @@
       "point_0":{
         "size":{"width": 4, "height": 3},
         "position":{"left":1.2, "top":20.1},
-        "message":"Нажимаем кнопку <<Создать>>"
+        "message":"Нажмите кнопку <<Создать>>"
 		}
 	},
 	"img_3":{
       "roundPoints":2,
       "point_0":{
-        "size":{"width": 8.7, "height": 2.6},
-        "position":{"left":1, "top":20.6},
-        "message":"Выбираем вид цены, в данном случае розничная"
+        "size":{"width": 18, "height": 2.6},
+        "position":{"left":2, "top":38},
+        "message":"Выберите вид цены. в данном случае розничная"
       },
 	  "point_1":{
         "size":{"width": 11.4, "height": 2.6},
         "position":{"left":86.6, "top":83},
-        "message":"Нажимаем кнопку <<Перейти к установке цен>>"
+        "message":"Нажмите кнопку <<Перейти к установке цен>>"
 	  }
 	},
 
@@ -49,8 +49,8 @@
       "roundPoints":1,
       "point_0":{
         "size":{"width": 2, "height": 2.2},
-        "position":{"left":2, "top":31},
-        "message":"Нажимаем кнопку <<Создать>>"
+        "position":{"left":1.8, "top":31.5},
+        "message":"Нажмите кнопку <<Создать>>"
 		}
 	},
 	"img_5":{
@@ -58,12 +58,12 @@
       "point_0":{
         "size":{"width": 11.7, "height": 3},
         "position":{"left":2, "top":33.3},
-        "message":"Нажимаем <<Подобрать товар>>"
+        "message":"Нажмите <<Подобрать товар>>"
       },
 	  "point_1":{
         "size":{"width": 21.4, "height": 2.5},
         "position":{"left":13.8, "top":34},
-        "message":"Нажимаем <<Открыть подбор>>"
+        "message":"Нажмите <<Открыть подбор>>"
 	  }
 	 },
 	"img_6":{
@@ -71,20 +71,25 @@
       "point_0":{
         "size":{"width": 13, "height": 2},
         "position":{"left":46.8, "top":49},
-        "message":"Выбираем нужную номенклатуру."
+        "message":"Выберите нужную номенклатуру."
       },
 	  "point_1":{
         "size":{"width": 9.4, "height": 2.5},
         "position":{"left":26, "top":27},
-        "message":"Нажимаем <<Перенести в документ>>"
+        "message":"Нажмите <<Перенести в документ>>"
 	  }
 	 },
 	"img_7":{
-      "roundPoints":1,
+      "roundPoints":2,
       "point_0":{
+        "size":{"width": 7, "height": 2},
+        "position":{"left":26.2, "top":38.7},
+        "message":"Установите новую цену"
+			},
+      "point_1":{
         "size":{"width": 8, "height": 2},
         "position":{"left":1.2, "top":20.7},
-        "message":"Устанавливаем новую цену и нажимаем <<Провести и закрыть>>"
+        "message":"Нажмите <<Провести и закрыть>>"
 			}
 		}
 	}

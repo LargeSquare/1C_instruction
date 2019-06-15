@@ -1,0 +1,35 @@
+#menu{
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 0.05em solid red;
+  border-radius: 1.5em;
+  padding: 3%;
+  margin: 0.5em;
+}
+#menu li{
+  cursor: pointer;
+  margin-bottom: 0.5em;
+}
+#menu li:hover{
+  color: red;
+  text-decoration: underline;
+}
+#leftBlock > *{
+  position: relative;
+}
+#leftBlock > p{
+  width: 100%;
+  text-align: center;
+  font-size: 250%;
+  margin-top: 5%;
+}
+#menu > p{
+  width: 100%;
+  font-size: 150%;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+.chapter{
+  margin-left: 10%;
+}

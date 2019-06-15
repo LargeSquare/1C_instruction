@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'roboto';
-  src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+  src: url('../../fonts/Roboto-Medium.ttf') format('truetype');
 }
 /* ::-webkit-scrollbar {
     width: 0;
 } */
 #messages{
   position: absolute;
-  z-index: 2;
+  z-index: 4;
   width: 30%;
   height: 100%;
   pointer-events: none;
@@ -31,9 +31,6 @@
   border-radius: 1em 0 0 1em;
   color: black;
   pointer-events: none;
-  opacity: 1;
-}
-#message:hover{
   opacity: 1;
 }
 

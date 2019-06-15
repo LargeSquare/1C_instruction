@@ -1,0 +1,357 @@
+{
+  "sequence":{
+    "src":"img/работа кассира в РМК/",
+    "roundImages":37
+  },
+  "SPMofClicker":{
+    "img_0":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 8},
+        "position":{"left":24.8, "top":5},
+        "message":"Перейдите в раздел <<Продажи>>"
+      }
+    },
+    "img_1":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 11, "height": 3},
+        "position":{"left":20.3, "top":38},
+        "message":"Выберите <<РМК (управляемый режим)>> или нажмите F11"
+      }
+    },
+    "img_2":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 12, "height": 4.3},
+        "position":{"left":42.6, "top":34.7},
+        "message":"Нажмите <<Открытие смены>>"
+      },
+	  "point_1":{
+        "size":{"width": 12, "height": 4.5},
+        "position":{"left":42.8, "top":29.6},
+        "message":"А затем <<Регистрация продаж>>"
+      }
+    },
+
+
+    "img_3":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 19.1, "height": 7.5},
+        "position":{"left":1, "top":90},
+        "message":"Для добавления товара в чек отсканируйте штрихкод на товаре или нажмите <<Штрихкод>>"
+      }
+    },
+    "img_4":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 20, "height": 43},
+        "position":{"left":40, "top":28},
+        "message":"Если вы не сканировали, а нажали на <<Штрихкод>>, то введите нужный штрихкод"
+      }
+    },
+    "img_5":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 10.5, "height": 7.1},
+        "position":{"left":45, "top":10.3},
+        "message":"Оплата наличными. Нажмите <<Наличные(F6)>>"
+      }
+    },
+    "img_6":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 44, "height": 41},
+        "position":{"left":28, "top":32},
+        "message":"Введите номинал купюры"
+      },
+      "point_1":{
+        "size":{"width": 4, "height": 16},
+        "position":{"left":67, "top":55},
+        "message":"Нажмите Enter"
+      }
+    },
+    "img_7":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Готово!"
+      }
+    },
+    "img_8":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 10.5, "height": 6.4},
+        "position":{"left":56, "top":11},
+        "message":"Оплата картой. Нажмите <<Плат.карта(F7)>>"
+      }
+    },
+    "img_9":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 3.9, "height": 12},
+        "position":{"left":54.7, "top":57},
+        "message":"Нажмите Enter"
+      }
+    },
+    "img_10":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 4.5},
+        "position":{"left":37.5, "top":64.5},
+        "message":"Нажмите <<Да>>"
+      }
+    },
+    "img_11":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 16},
+        "position":{"left":65.2, "top":61},
+        "message":"Нажмите Enter"
+      }
+    },
+    "img_12":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Готово!"
+      }
+    },
+
+
+    "img_13":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 11, "height": 7},
+        "position":{"left":67, "top":11},
+        "message":"Сложная оплата. Нажмите <<Сложная оплата(F8)>>"
+      }
+    },
+    "img_14":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 3.5, "height": 11},
+        "position":{"left":52, "top":33},
+        "message":"Сначала воспользуемся наличными. Нажмите <<Нал(F6)>>"
+      }
+    },
+    "img_15":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 40, "height": 45},
+        "position":{"left":30, "top":33},
+        "message":"Введите сумму наличных"
+      },
+      "point_1":{
+        "size":{"width": 4, "height": 11},
+        "position":{"left":56.3, "top":33},
+        "message":"Теперь воспользуемся пластиковой картой, нажимаем кнопку <<ПК(F7)>>"
+      }
+    },
+    "img_16":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 12},
+        "position":{"left":54.5, "top":57},
+        "message":"Нажмите Enter"
+      }
+    },
+    "img_17":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 4},
+        "position":{"left":37.5, "top":65},
+        "message":"Нажмите <<Да>>"
+      }
+    },
+    "img_18":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 4, "height": 15},
+        "position":{"left":65.2, "top":62},
+        "message":"Нажмите Enter"
+      },
+      "point_1":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Готово"
+      }
+    },
+
+
+
+
+    "img_19":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 11, "height": 7},
+        "position":{"left":34, "top":10},
+        "message":"Для проведения возврата нажмите <<Возврат>>"
+      }
+    },
+    "img_20":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 44, "height": 4},
+        "position":{"left":25.2, "top":30},
+        "message":"Двойным кликом выберите нужный чек"
+      },
+      "point_1":{
+        "size":{"width": 5, "height": 7},
+        "position":{"left":70, "top":26},
+        "message":"Нажмите кнопку с зеленой стрелкой"
+      }
+    },
+    "img_21":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 25, "height": 4},
+        "position":{"left":35, "top":43},
+        "message":"Двойным кликом выберите причину"
+      },
+      "point_1":{
+        "size":{"width": 5, "height": 8},
+        "position":{"left":60, "top":54},
+        "message":"Нажмите кнопку с зеленой стрелкой"
+      }
+    },
+    "img_22":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 10, "height": 7},
+        "position":{"left":45.2, "top":10},
+        "message":"Если возврат производится наличными, то нажмите <<Наличные>>, если картой, то..."
+      },
+      "point_1":{
+        "size":{"width": 10, "height": 7},
+        "position":{"left":56.2, "top":10},
+        "message":"... то нажмите <<Плат. карта>>"
+      }
+    },
+    "img_23":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 14, "height": 28},
+        "position":{"left":53.2, "top":38},
+        "message":"Если вы выбрали возврат наличными, то введите нужную сумму."
+      },
+      "point_1":{
+        "size":{"width": 4, "height": 15},
+        "position":{"left":67.2, "top":53},
+        "message":"Нажмите << Enter >>"
+      }
+    },
+    "img_24":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 5},
+        "position":{"left":37.2, "top":61},
+        "message":"Если вы выбрали возврат картой, то нажмите <<Да>>"
+      }
+    },
+    "img_25":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4, "height": 15},
+        "position":{"left":65.2, "top":58},
+        "message":"Нажмите << Enter >>"
+      }
+    },
+    "img_26":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Готово!"
+      }
+    },
+    "img_27":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 19, "height": 7},
+        "position":{"left":20.9, "top":90.5},
+        "message":"Отложить чек можно кнопкой в меню или сочетанием клавиш Alt+F5"
+      }
+    },
+    "img_28":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 19, "height": 7},
+        "position":{"left":40.5, "top":90.8},
+        "message":"После этого мы можем продолжить пробивать другие чеки. Чтобы вернутся к отложенному чеку, нажмите кнопку <<Продолж. чек>> или сочетание клавиш Ctrl+F5"
+      }
+    },
+    "img_29":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 40, "height": 3},
+        "position":{"left":25, "top":32},
+        "message":"Двойным кликом выберите нужный чек"
+      },
+      "point_1":{
+        "size":{"width": 5, "height": 8},
+        "position":{"left":70, "top":27},
+        "message":"Нажмите на кнопку с зеленой стрелкой"
+      }
+    },
+    "img_30":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 100, "height": 100},
+        "position":{"left":0, "top":0},
+        "message":"Теперь этот чек можно пробить или аннулировать"
+      }
+    },
+    "img_31":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 19, "height": 6.7},
+        "position":{"left":79.5, "top":91},
+        "message":"Выйти из окна кассы можно с помощью кнопки <<Выход>> или F12"
+      }
+    },
+    "img_32":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 5},
+        "position":{"left":42.8, "top":50},
+        "message":"Для закрытия смены нажмите <<Закрытие смены>>"
+      }
+    },
+    "img_33":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 4},
+        "position":{"left":37.5, "top":65},
+        "message":"Нажмите <<Да>>"
+      }
+    },
+    "img_34":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 7.2, "height": 3},
+        "position":{"left":41, "top":48},
+        "message":"Нажмите <<Закрытие смены>>"
+      }
+    },
+    "img_35":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 25, "height": 3.6},
+        "position":{"left":37.6, "top":65},
+        "message":"Нажмите <<Закрыть>>"
+      }
+    },
+    "img_36":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 12, "height": 11},
+        "position":{"left":42.8, "top":65},
+        "message":"Из окна РМК можно выйти только с помощью кнопки <<Закрыть>>. Кнопка <<Завершить работу>> закроет всю программу"
+      }
+    }
+  }
+}

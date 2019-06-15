@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>1С инструкция</title>
+    <link rel="stylesheet" href="css/constructor/main.css">
+    <link rel="stylesheet" href="css/constructor/leftBlock.css">
+    <link rel="stylesheet" href="css/constructor/rightBlock.css">
+
+    <script type="text/javascript" src='js/jquery_notMin_3.4.1.js' defer></script>
+    <script type="text/javascript" src='js/constructor.js' defer></script>
+    </head>
+  <body>
+    <div id="container">
+      <div id="leftBlock">
+        <p>Меню</p>
+        <div id="menu">
+          <ul class="chapter"></ul>
+        </div>
+      </div>
+      <div id="rightBlock">
+        <p id='nameOfPar'></p>
+
+        <div id="image">
+          <div id="clicker"></div>
+          <div id="blackBackground"></div>
+          <img src="" alt="">
+        </div>
+        <div id="buttons" style="display: none;">
+          <div id="prev">Предыдущий шаг</div>
+          <div id="currentStep">1</div>
+          <div id="next">Следующий шаг</div>
+        </div>
+
+        <p id="description">Заполнение:</p>
+        <div id="dataPoints">
+
+          <div id="dpLeft">
+            <p>Путь до изображений:</p>
+            <p>Количество изображений в разделе:</p>
+            <p>Текущее изображение (индекс):</p>
+            <p>Количество шагов на текущем фото:</p>
+            <p>Текущий шаг (индекс):</p>
+            <p>Сообщение:</p>
+          </div>
+
+          <div id="dpRight">
+            <div class="line">
+              <input type="text" name="" value="img/Вход в 1с/">
+            </div>
+            <div class="line">
+              <div class="minus">-</div>
+              <input type="text" name="" value="1">
+              <div class="plus">+</div>
+            </div>
+            <div class="line">
+              <div class="minus">-</div>
+              <input type="text" name="" value="0">
+              <div class="plus">+</div>
+            </div>
+            <div class="line">
+              <div class="minus">-</div>
+              <input type="text" name="" value="1">
+              <div class="plus">+</div>
+            </div>
+            <div class="line">
+              <div class="minus">-</div>
+              <input type="text" name="" value="0">
+              <div class="plus">+</div>
+            </div>
+            <div class="line">
+              <input type="text" name="" value="">
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

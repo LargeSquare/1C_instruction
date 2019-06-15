@@ -1,7 +1,7 @@
 {
   "sequence":{
-    "src":"img/Документы оприходование товаров/",
-    "roundImages":10
+    "src":"img/Документы оприходование и списание товаров/",
+    "roundImages":17
   },
   "SPMofClicker":{
     "img_0":{
@@ -40,7 +40,7 @@
       "roundPoints":1,
       "point_0":{
         "size":{"width": 20, "height": 2},
-        "position":{"left":36, "top":31},
+        "position":{"left":34, "top":31},
         "message":"Выберите <<Оприходование товаров>>"
       }
     },
@@ -96,6 +96,77 @@
       "point_1":{
         "size":{"width": 9, "height": 4},
         "position":{"left":1, "top":20},
+        "message":"Нажмите <<Провести и закрыть>>"
+      }
+    },
+    "img_10":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 8, "height": 3},
+        "position":{"left":4, "top":44},
+        "message":"Для списания товара выберите <<Списания товаров>>"
+      }
+    },
+    "img_11":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 4.5, "height": 4},
+        "position":{"left":1, "top":24},
+        "message":"Нажмите <<Создать>>"
+      }
+    },
+    "img_12":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 1, "height": 2},
+        "position":{"left":2, "top":35},
+        "message":"Нажмите <<Создать>>"
+      }
+    },
+    "img_13":{
+      "roundPoints":1,
+      "point_0":{
+        "size":{"width": 1, "height": 2},
+        "position":{"left":62, "top":40},
+        "message":"Нажмите <<...>>"
+      }
+    },
+    "img_14":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 52.5, "height": 2},
+        "position":{"left":24.5, "top":47.5},
+        "message":"Выберите нужную номенклатуру"
+      },
+      "point_1":{
+        "size":{"width": 5, "height": 3},
+        "position":{"left":21.5, "top":31},
+        "message":"Нажмите <<Выбрать>>"
+      }
+    },
+    "img_15":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 6, "height": 2},
+        "position":{"left":22, "top":35},
+        "message":"Нажмите кнопку <<Заполнить цены>>"
+      },
+      "point_1":{
+        "size":{"width": 11, "height": 2.5},
+        "position":{"left":22, "top":37.5},
+        "message":"Выберите <<По розничным ценам>>"
+      }
+    },
+    "img_16":{
+      "roundPoints":2,
+      "point_0":{
+        "size":{"width": 5, "height": 4},
+        "position":{"left":64, "top":38},
+        "message":"Заполните количество товара"
+      },
+      "point_1":{
+        "size":{"width": 9, "height": 2},
+        "position":{"left":1, "top":21},
         "message":"Нажмите <<Провести и закрыть>>"
       }
     }

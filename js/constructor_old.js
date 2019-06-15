@@ -1,36 +1,11 @@
-/*
-  Устройство/структура программы разработана Данилюком Сергеем. Заполнял json файлы, делал скриншоты, создавал инструкции Сычев Александр.
-
-  Если ты читаешь это, то скорее всего хочешь как-то доработать приложение. Что ж... Добро пожаловать в мой маленький мирок. Меня зовут Серега.
-  Специально для тебя я оставил комментарии с СОВСЕМ кратким описанием функций. Разобраться будет не сложно, т.к. всё работает "на счетчиках".
-  Для начала: указатель действия- та прямоугольная зона, которая мигает. На нее можно кликнуть и перейти к следующему шагу (дублирование кнопки "следующий шаг").
-  В json файле заданы все параметры каждого шага инструкции. Эти данные выступают как некие "ограничители" (переменные round*) и счетчики (переменные current*).
-  Счетчик current не может выйти за соответствующее ограничение round.
-  Также в json указаны сообщения, размеры и положение указателя действия. На их основе генерируется этот самый указатель.
-*/
-
-/*
-  Программа разработана на
-    nwjs-sdk-v0.36.4-win-x64
-  и
-    node.js 10.15.2
-
-  Также используется библиотека
-    jquery 3.4.1
-
-  Обновления могут быть найдены в этом репозитории GitHub- https://github.com/LargeSquare/1C_instruction.git
-  Любые улучшения могут быть предложены там же
-*/
-
-// SPMofClicker - size, position, message кликера
-
-
 
 
 const fs = require('fs'); // импорт модуля для работы с файловой системой
 
+
 var jsonOBJ,
-    jsonSettings;
+    jsonSettings,
+    jsonMenu;
 
 var roundPoints,      // кол-во указателей действий на текущем изобращении
     roundImages,      // кол-во изображений в текущем уроке
@@ -38,11 +13,13 @@ var roundPoints,      // кол-во указателей действий на 
     currentPoint = 0,      // текущий отображаемый указатель действия
     text;                  // хранит имя текущего раздела
 
+var counter, q, s, m, p, t, r; //вспомогательные переменные
 
 
 jsonSettings = fs.readFileSync(('app/json/settings.json'));
 jsonSettings = JSON.parse(jsonSettings);
-
+jsonMenu = fs.readFileSync(('app/json/itemsMenu.json'));
+jsonMenu = JSON.parse(jsonMenu);
 
 // установка начального состояния программы
 $(document).ready(function () {
@@ -54,8 +31,15 @@ $(document).ready(function () {
     $('#messages').css('width', '0%');
   }
 
+//Заполнение textarea в меню
+  for(var i in jsonMenu){
+    var textA = document.createElement('textarea');
+    textA.innerHTML = jsonMenu[i];
+    $('.chapter').append(textA);
+  }
+
 // заполнение переменных
-  text = document.getElementsByClassName('chapter')[0].getElementsByTagName('li')[0].innerHTML;
+  text = document.getElementsByClassName('chapter')[0].getElementsByTagName('textarea')[0].innerHTML;
   jsonOBJ = fs.readFileSync(('app/json/'+text+'.json'));
   jsonOBJ = JSON.parse(jsonOBJ);
 
@@ -66,15 +50,15 @@ $(document).ready(function () {
   $("#image img").attr('src', jsonOBJ.sequence.src+'0.png');
   $("#nameOfPar").html(text);
 
-  $('ol').html(''); // обнуление описания раздела
+  // $('ol').html(''); // обнуление описания раздела
   // добавление описания раздела по пунктам
-  for(var i = 0; i < roundImages; i++){
-    for(var j = 0; j < jsonOBJ.SPMofClicker['img_'+i].roundPoints; j++){
-      var li = document.createElement('li');
-      li.innerHTML = jsonOBJ.SPMofClicker['img_'+i]['point_'+j].message;
-      $('ol').append(li);
-    }
-  }
+  // for(var i = 0; i < roundImages; i++){
+  //   for(var j = 0; j < jsonOBJ.SPMofClicker['img_'+i].roundPoints; j++){
+  //     var li = document.createElement('li');
+  //     li.innerHTML = jsonOBJ.SPMofClicker['img_'+i]['point_'+j].message;
+  //     $('ol').append(li);
+  //   }
+  // }
 
   $('#currentStep').html('1');
   constructor();
@@ -107,23 +91,6 @@ $("#menu .chapter li").on('click', function () {
   }
 
   $('#currentStep').html('1');
-  constructor();
-});
-
-
-// срабатывает при клике на указатель действия
-$('#clicker').on('click', function () {
-  if(currentPoint+1 < roundPoints){
-    currentPoint++;
-  }else{
-    if(currentIMG+1 < roundImages){
-      currentIMG++;
-      roundPoints = jsonOBJ.SPMofClicker['img_'+currentIMG].roundPoints;
-      currentPoint = 0;
-    }
-  }
-  $('#currentStep').html(currentIMG+1);
-  $('#image img').attr('src', (jsonOBJ.sequence.src+currentIMG+'.png'));
   constructor();
 });
 
@@ -162,35 +129,8 @@ $('#prev').on('click',  function () {
 });
 
 
-// раскрытие раздела "о разработчике"
-$('#buttonAboutMe').on('click', function () {
-  if($('#textAboutMe').css('height') == '0px'){
-    $('#textAboutMe').css('height', 'auto');
-    $('#textAboutMe').css('padding-top', '0.5em');
-    $('#buttonAboutMe img').css('transform', 'rotate(-90deg)');
-  }else{
-    $('#textAboutMe').css('height', '0px');
-    $('#textAboutMe').css('padding-top', '0em');
-    $('#buttonAboutMe img').css('transform', 'rotate(90deg)');
-  }
-});
-
-
-// изменение настройки показа сообщений
-document.getElementsByClassName('set')[0].getElementsByTagName('input')[0].addEventListener('change', function () {
-  if(this.checked){
-    jsonSettings.showMessages = 'true';
-    $('#messages').css('width', '30%');
-  }else{
-    jsonSettings.showMessages = 'false';
-    $('#messages').css('width', '0');
-  }
-  fs.writeFileSync('app/json/settings.json', JSON.stringify(jsonSettings));
-});
-
-
 // функция построения указателя действия
-function constructor(ci, cp) {
+function constructor() {
       var widthCP = Number(jsonOBJ.SPMofClicker['img_'+currentIMG]['point_'+currentPoint].size.width),
           heightCP = Number(jsonOBJ.SPMofClicker['img_'+currentIMG]['point_'+currentPoint].size.height),
           leftCP = Number(jsonOBJ.SPMofClicker['img_'+currentIMG]['point_'+currentPoint].position.left),
@@ -213,14 +153,8 @@ function constructor(ci, cp) {
       $('#clicker').css('height', heightCP+'%');
       $('#clicker').css('left', leftCP+'%');
       $('#clicker').css('top', topCP+'%');
-      showMessage(jsonOBJ.SPMofClicker['img_'+currentIMG]['point_'+currentPoint].message);
 }
 
-//показ сообщения
-function showMessage(text) {
-  $('#message').css('right', '-20em');
-  setTimeout(function () {
-    $('#message').html(text);
-    $('#message').css('right', '0');
-  }, 200);
+function save() {
+
 }
